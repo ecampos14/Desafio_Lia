@@ -33,7 +33,7 @@ cd caminho/para/o/projeto
 ruby app.rb
 ```
 
-A API estará disponível em `http://localhost:4567/`.
+A API estará disponível em `http://localhost:4000/`.
 
 ## Rotas Disponíveis
 
@@ -42,7 +42,7 @@ A API estará disponível em `http://localhost:4567/`.
 - Para buscar todos os cursos, acesse:
 
 ```bash
-http://localhost:4567/
+http://localhost:4000/
 ```
 
 ### Pesquisa por Curso
@@ -50,7 +50,7 @@ http://localhost:4567/
 - Para buscar cursos de um determinado curso, substitua `:course` pelo nome do curso desejado:
 
 ```bash
-http://localhost:4567/ingles
+http://localhost:4000/ingles
 ```
 
 ### Pesquisa por Curso e Nível
@@ -58,7 +58,7 @@ http://localhost:4567/ingles
 - Para buscar cursos de um curso e nível específicos, substitua `:course` e `:level` pelos valores desejados:
 
 ```bash
-http://localhost:4567/espanhol/avancado
+http://localhost:4000/espanhol/avancado
 ```
 
 ### Pesquisa por Curso, Nível e Turno
@@ -66,7 +66,7 @@ http://localhost:4567/espanhol/avancado
 - Para buscar cursos de um curso, nível e turno específicos, substitua `:course`, `:level` e `:shift` pelos valores desejados:
 
 ```bash
-http://localhost:4567/espanhol/avancado/manha
+http://localhost:4000/espanhol/avancado/manha
 ```
 
 ## Exemplos de Uso
@@ -76,5 +76,5 @@ Você pode usar ferramentas como `curl` ou aplicativos como o [Postman](https://
 Exemplo de solicitação de busca por cursos de inglês:
 
 ```bash
-curl http://localhost:4567/ingles
+curl http://localhost:4000/ingles
 ```
